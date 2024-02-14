@@ -53,7 +53,7 @@ def take_user_input():
                 speak('Have a good day sir!')
             exit()
     except Exception:
-        speak("sorry sir eniki manasil ayila")
+        speak("Sorry i couldn't  understand that! Please say again.")
         query='None'
     return query
 
